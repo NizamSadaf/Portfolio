@@ -1,5 +1,5 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
+import project1 from "../assets/projects/project-1_crop.png";
+import project2 from "../assets/projects/project-2_crop.png";
 
 export const HERO_CONTENT = `I am a dedicated full stack developer with a passion for building robust and scalable web applications. With 3 years of experience, I've developed strong expertise in front-end technologies like React and Next.js, and back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. My aim is to utilize these skills to create innovative solutions that enhance business growth and deliver outstanding user experiences.`;
 
@@ -8,17 +8,19 @@ export const ABOUT_TEXT = `I am an enthusiastic full stack developer with a pass
 export const EXPERIENCES = [
   {
     year: "2022 - 2024",
-    role: "Senior Full Stack Developer",
-    company: "QUadque.",
+    role: "Full Stack Developer",
+    company: "Quadque.",
+    link:'https://quadque.tech/',
     description: `Led a team in building and maintaining web applications using JavaScript, React, and Node.js. Developed RESTful APIs and integrated MongoDB for data management. Worked closely with stakeholders to gather requirements and ensure project timelines were met. Delivered high-quality applications in line with business objectives.`,
     technologies: ["Node.js", "React.js", "Next.js", "mongoDB","Express,js"],
   },
   {
     year: "2021 - 2022",
-    role: "UI/UX Designer",
+    role: "Junior Front-End Developer",
     company: "ITEC",
-    description: "As a UI/UX designer, I created website designs using Figma and translated them into fully functional user interfaces with HTML, Tailwind CSS, and React, ensuring a seamless and intuitive user experience",
-    technologies: ["HTML", "Tailwind CSS", "React.js", "Figma"],
+    link:'https://itecounsel.com/',
+    description: "As a Junior Front-End Developer, I focused on building and maintaining responsive, user-friendly web interfaces using HTML, CSS (SCSS), and JavaScript. I collaborated closely with design and development teams to implement pixel-perfect layouts and ensure cross-browser compatibility. Additionally, I assisted in optimizing web performance, debugging, and integrating APIs, all while continuously learning new technologies and following best coding practices to improve the user experience.",
+    technologies: ["HTML","SCSS", "Tailwind CSS", "React.js", "Figma"],
   },
 ];
 

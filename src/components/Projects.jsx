@@ -17,7 +17,7 @@ const Projects = () => {
                  initial={{x:-100,opacity:0}}
                  transition={{delay:0.5}}
                  className='w-full lg:w-1/4'>
-                    <a href={project.link} target='_blank'><img className='w-[10rem] h-[20rem] rounded-xl mb-2' src={project.image} alt="" /></a>
+                    <a href={project.link} target='_blank'><img className='w-[15rem]  rounded-xl mb-2 bg-cover' src={project.image} alt="" /></a>
                 </motion.div>
                 <motion.div
                  whileInView={{x:0,opacity:1}}
@@ -25,7 +25,7 @@ const Projects = () => {
                  transition={{delay:0.5}}
                 className='w-full max-w-xl lg:w-3/4'>
                     <h6 className='mb-2 font-semibold'>
-                        {project.title}
+                    <a href={project.link} target='_blank'>{project.title}</a>
                     </h6>
                     <p className='mb-4 text-neutral-200'>
                         {project.description}
