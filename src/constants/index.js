@@ -7,7 +7,7 @@ export const ABOUT_TEXT = `I am an enthusiastic full stack developer with a pass
 
 export const EXPERIENCES = [
   {
-    year: "2022 - 2024",
+    year: "2023 - 2024",
     role: "Full Stack Developer",
     company: "Quadque.",
     link:'https://quadque.tech/',
